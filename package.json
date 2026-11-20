@@ -1,0 +1,26 @@
+{
+  "name": "asset-movement-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Asset Movement Management System - request, approve, issue, secure exit, return, inspect and close.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.8.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "qrcode": "^1.5.4"
+  },
+  "allowScripts": {
+    "better-sqlite3": true
+  }
+}
